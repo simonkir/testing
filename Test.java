@@ -10,5 +10,7 @@ public class Test {
 	int result = a*b; // calculates the result
 
 	System.out.println(result); // prints the result to the console
+
+	// added better comment for feature
     }
 }
