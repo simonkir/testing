@@ -11,6 +11,6 @@ public class Test {
 
 	System.out.println(result); // prints the result to the console
 
-	// introduced some new exciting feature
+	// added better comment for feature
     }
 }
