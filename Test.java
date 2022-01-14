@@ -1,8 +1,6 @@
 public class Test {
     public static void main(String[] args) {
 
-	// added a
-	
 	// greet the world
 	System.out.println("Hello World!");
 
