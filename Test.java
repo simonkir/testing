@@ -9,7 +9,8 @@ public class Test {
 		int b = 3;
 		int result = a + b;
 		
-		System.out.println("Hello earth!");
+
+		System.out.println("Hello community!");
 
 		System.out.println("Hello Back");
     }
