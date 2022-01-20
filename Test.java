@@ -18,7 +18,7 @@ public class Test {
 
 				// threshold below which cells become alive
 				// used to better control how many cells are alive
-				int threshold = 0.15;
+				double threshold = 0.15;
 				if (Math.random() < threshold) {
 					set[i][j] = 1;
 				} else {
