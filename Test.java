@@ -10,7 +10,7 @@ public class Test {
 		// stores the status of all cells in the simulation
 		// 1 = alive cell
 		// 0 = dead cell
-		int[][] set = new int[width][height
+		int[][] set = new int[width][height];
 
 		// randomly assigns dead / alive state for each cell
 		for (int i = 0; i < width; i++){
@@ -26,4 +26,5 @@ public class Test {
 				}
 			}
 		}
+	}
 }
