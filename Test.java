@@ -17,7 +17,7 @@ public class Test {
 			for (int j=0; j<width; j++){
 				Math.random();
 				
-				if (Math.random < 0.5){
+				if (Math.random() < 0.5){
 					set[i][j] = 1;
 				}
 				else {
