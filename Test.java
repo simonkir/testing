@@ -1,3 +1,5 @@
+import java.lang.Math;
+
 public class Test {
     public static void main(String[] args) {
 
@@ -8,6 +10,20 @@ public class Test {
 		// stores the status of all cells in the simulation
 		// 1 = alive cell
 		// 0 = dead cell
-		int[][] set = new int[width][height];
-    }
+		int[][] set = new int[width][height
+
+		// randomly assigns dead / alive state for each cell
+		for (int i = 0; i < width; i++){
+			for (int j = 0; j < height; j++) {
+
+				// threshold below which cells become alive
+				// used to better control how many cells are alive
+				int threshold = 0.15;
+				if (Math.random() < threshold) {
+					set[i][j] = 1;
+				} else {
+					set[i][j] = 0;
+				}
+			}
+		}
 }
