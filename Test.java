@@ -27,18 +27,15 @@ public class Test {
 			}
 		}
 		
-		for (int i=0; i<width; i++){
-			for (int j=0; j<height; j++){
-				
+		for (int i = 0; i < width; i++) {
+			for (int j = 0; j < height; j++) {
 				if (set[i][j] == 1) {
-					System.out.println("#");
-				}
-				else{	
-					System.out.println(" ");
+					System.out.print("#");
+				} else {	
+					System.out.print(" ");
 				}
 			}
+			System.out.println();
 		}
-		
-		
 	}
 }
