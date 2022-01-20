@@ -27,7 +27,16 @@ public class Test {
 			}
 		}
 		
+		// printing top border
+		System.out.print("+");
 		for (int i = 0; i < width; i++) {
+			System.out.print("-");
+		}
+		System.out.println("+");
+		
+		// printing each cell
+		for (int i = 0; i < width; i++) {
+			System.out.print("|");
 			for (int j = 0; j < height; j++) {
 				if (set[i][j] == 1) {
 					System.out.print("#");
@@ -35,7 +44,14 @@ public class Test {
 					System.out.print(" ");
 				}
 			}
-			System.out.println();
+			System.out.println("|");
 		}
+
+		// printing bottom border
+		System.out.print("+");
+		for (int i = 0; i < width; i++) {
+			System.out.print("-");
+		}
+		System.out.println("+");
 	}
 }
