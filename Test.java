@@ -12,6 +12,7 @@ public class Test {
 		// 0 = dead cell
 		int[][] set = new int[width][height];
 
+		// randomly assigns dead / alive state for each cell
 		for (int i = 0; i < width; i++){
 			for (int j = 0; j < height; j++) {
 				if (Math.random() < 0.5) {
