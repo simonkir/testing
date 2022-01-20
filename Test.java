@@ -15,7 +15,11 @@ public class Test {
 		// randomly assigns dead / alive state for each cell
 		for (int i = 0; i < width; i++){
 			for (int j = 0; j < height; j++) {
-				if (Math.random() < 0.5) {
+
+				// threshold below which cells become alive
+				// used to better control how many cells are alive
+				int threshold = 0.15;
+				if (Math.random() < threshold) {
 					set[i][j] = 1;
 				} else {
 					set[i][j] = 0;
