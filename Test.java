@@ -9,19 +9,21 @@ public class Test {
 		// 1 = alive cell
 		// 0 = dead cell
 		int[][] set = new int[width][height];
-		
-		int x = 18;
-		int y = 24;
-			
 
-		set[x][y] = 1;
+		set[1][1] = 1; 
 
 
-		if (set[x][y] == 1){
-			System.out.println("Lebt");
+		for (int i=0; i<width; i++){
+			for (int j=0; j<width; j++){
+				Math.random();
+				
+				if (Math.random < 0.5){
+					set[i][j] = 1;
+				}
+				else {
+					set[i][j] = 0;
+				}
+			}
 		}
-		
-		
-		
     }
 }
