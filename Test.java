@@ -53,5 +53,9 @@ public class Test {
 			System.out.print("-");
 		}
 		System.out.println("+");
+
+		// fixes no-display bug with emacs M-x shell
+		// caused by missing \n
+		System.out.println();
 	}
 }
